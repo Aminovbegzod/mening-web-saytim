@@ -1,0 +1,288 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border: 5px solid black;
+    background-color: black;
+
+}
+
+#logo {
+    border-radius: 50px;
+}
+
+.menn {
+    gap: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+
+.men {
+    display: flex;
+    gap: 20px;
+}
+
+.menn:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 7px 7px;
+    border-radius: 15px;
+    transition: 1s;
+    box-shadow: 1px 0px  50px white;
+
+
+}
+
+/*main*/
+#port-text {
+    width: 350px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#port {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 80px;
+
+}
+
+#port-wrapper {
+    display: flex;
+    gap: 100px;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 50px 50px;
+    border-radius: 10px;
+    background-color: rgb(0, 133, 51);
+    color: rgb(255, 255, 255);
+
+}
+
+#my {
+    display: flex;
+}
+
+#h1 {
+    font-size: 50px;
+}
+
+#port-img {
+    border: 3px solid rgb(0, 133, 51);
+    border-radius: 10px;
+}
+
+#h1:hover {
+    font-size: 60px;
+    transition: 0.5s;
+}
+
+#p-h1 {
+    font-size: 40px;
+}
+
+#p-h1:hover {
+    color: white;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: black;
+    padding: 5px 5px;
+}
+
+#web {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 50px;
+
+}
+#social{
+    display: flex;
+    gap: 20px;
+
+}
+footer{
+    margin-top: 100px;
+}
+.ins:hover{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(243, 0, 202);
+    color: white;
+    transition: 1s;
+
+}
+.you:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: red;
+    color: white;
+    transition: 1s;
+
+}
+.tik:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+/*vazifa*/
+.karta{
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    border:4px solid black ;
+    margin-bottom: 193px;
+    margin-top: 193px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 500px;
+    background-color: rgb(15, 198, 45);
+    position: relative;
+}
+.k-img{
+    position:absolute;
+    left: -25px;
+    top: -25px;
+}
+.k-img2{
+    position: absolute;
+    right: -25px;
+    bottom: -25px;
+}
+.head{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.menyu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 20px;
+    
+}
+.main{
+    padding-right:300px ;
+    padding-left: 80px;
+    border:5px solid black;
+    background-color: white;
+    
+
+}   
+
+
+#vazifabtn{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+#vazifainput{
+    border: 3px solid black;
+
+}
+#vazifabtn:hover{
+    background-color: red;
+    transition: 3s;
+}
+#loyixam{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+/*bmi*/
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.h1{
+    display: flex;
+}
+.vazn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 100px;
+    padding: 50px 50px;
+    
+}
+.btn{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    background-color:blue;
+
+}
+.inp{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.boy{
+    border: 5px solid black;
+    padding: 20px 100px;
+    box-shadow: 10px 10px black;
+}
+
+.inp input:hover{
+    color :black;
+    font-size: 20px;
+    transition: 0.3s;
+    border:3px solid black;
+    border-radius: 10px;
+}
+.btn:hover{
+   background-color: yellow;
+   color:rgb(0, 0, 0);
+   transition: 0.5s;
+
+}
+#main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
